@@ -1,0 +1,118 @@
+/*inicio_inicio*/
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto_inicio p{
+    padding-top: 50px;
+    text-indent: 0%;
+    text-align: left;
+    font-size: 16vw;
+    line-height: 12.5vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #110826;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.imagem img{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    height: 70vw;
+}
+.circle1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4f3d7e;
+    clip-path: circle(60vw at bottom right);
+
+    transform: translate(0px);
+    animation: animacao3 10s ease-in-out infinite;
+
+}
+.circle2{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(40vw at bottom center);
+
+    max-width: 640px;
+    transform: translate(0px);
+    animation: animacao2 10s ease-in-out infinite;
+}
+
+@keyframes animacao1{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(50px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: translate(-30px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@keyframes animacao2{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(-30px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: translate(20px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@media (min-width: 500px){
+    body{
+        font-family: serif;
+        background-color: #18112b;
+        color: #f7f4fe;
+    }
+    .texto_inicio p{
+        padding-top: 100px;
+        text-indent: 0%;
+        text-align: left;
+        font-size: 9vw;
+        line-height: 7vw;
+        margin-left: 75px;
+        margin-right: 50%;
+    }
+    .imagem img{
+        height: 40vw;
+    
+    }
+    .circle1{
+        clip-path: circle(35vw at bottom right);
+    
+    }
+    .circle2{
+        left: 40%;
+        background-color: #1e1533;
+        clip-path: circle(20vw at bottom center);
+    }
+}

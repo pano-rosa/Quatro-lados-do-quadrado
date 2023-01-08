@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quatro Lados do Quadrado</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="Tela.css" />
+    <link rel="stylesheet" href="Texto.css" />
+    <link rel="stylesheet" href="Fornulario.css" />
+    <script src="Java.js"></script>
+
+    <link rel="stylesheet" href="ingles.css">
+
+    <!--Ícone da página-->
+    <link rel="shortcut icon" href="Imagens/Bordas_arrendodadas.ico">
+
+
+    <style>
+        body{
+            font-family: serif;
+            background-color: #18112b;
+            color: #f7f4fe;
+        }
+        .quadrado2{
+            position: absolute;
+            background-color: #110826;
+            height: 10px;
+            width: 100%;
+            top: 240%;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <!--Menu-->
+    <header>
+        <nav>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+          <li><a href="Somos_introdução.html">Somos</a></li>
+        </ul>
+        <!--Tradução-->
+        <div class="langs">
+            <a href="#">PT-BR</a>
+            <a href="i_Contato_rm.html">ENG</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!--Extenção do Vlibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+        <!--Elementos da tela-->
+        <section>
+            <h2>Relato de morador</h2><br>
+            <form action="https://formsubmit.co/quatroladosdoquadrado@gmail.com" method="post">
+                
+                <label>.Email</label>
+                <input type="email" name="E-mail" placeholder="Digite seu email" autocomplete="off" required>
+                
+                <label>.Nome:</label>
+                <input  type="text" name="Nome" placeholder="Digite seu nome" autocomplete="off" required>
+                
+                <label>.Idade:</label>
+                <input  type="number" name="Idade" placeholder="Digite a sua idade" autocomplete="off" required>
+                <br>
+                <label>.Região administrativa que vive?</label><br>
+                <div class="regioes">
+                    <label >
+                        <input type="radio" name="Região" value="Guará" required>Guará
+                    </label><br>
+                    <label>
+                        <input type="radio" name="Região" value="Santa Maria" required>Santa Maria
+                    </label><br>
+                    <label>
+                        <input type="radio" name="Região" value="Samambaia" required>Samambaia
+                    </label><br>
+                    <label>
+                        <input type="radio" name="Região" value="Varjão" required>Varjão
+                    </label><br>
+                </div> 
+                <br>
+    
+                <label>.Quantos anos você reside nesse local?</label>
+                <input type="number" name="Tempo" placeholder="Digite a quantos anos você reside nesse local" autocomplete="off" required>
+    
+                <br>
+                <label>.Por qual motivo optou por morar/permanecer nesse local ? 
+                </label>
+                <textarea name="Pergunta-1" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+    
+                <br>
+                <label>.Você mudaria de cidade ? Por favor justifique.
+                    </label>
+                    <textarea name="Pergunta-2" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <label>.Deseja que seja mantido o seu anonimato?</label><br>
+                <div class="campo">
+                    <label>
+                        <input type="radio" name="Anonimato" value="Sim" required>Sim<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="Anonimato" value="Não" required>Não
+                    </label>
+                </div>
+    
+                <br>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/envio.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button class="botao" type="submit">Enviar</button><br><br><br>
+                <!--Botão que rola pra cima-->
+                <a id="rolar_cima" href="#">&#9650</a>
+            </form>
+        </section>
+  </body>
+</html>

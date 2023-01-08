@@ -1,0 +1,259 @@
+
+        body{
+            font-family: serif;
+            background-color: #18112b;
+            color: #f7f4fe;
+        }
+        .texto_inicio{
+            position: absolute;
+            left: 30%;
+            right: 30%;
+            top: 70px;
+            text-align: center;
+            font-size: 2vw;
+            line-height: 3.5vw;
+            
+        }
+        .quadrado2{
+            position: absolute;
+            background-color: #110826;
+            height: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+        .retangulo1, .retangulo2, .retangulo3 ,.retangulo4, .retangulo5{
+            position: absolute;
+            width: 30vw;
+            height: 40vw;
+            box-shadow: 5px 5px 5px black;
+            transition-duration: 0.5s;
+            border-radius: 10px;
+        }
+        .retangulo1 img, .retangulo3 img, .retangulo5 img, .retangulo2 img, .retangulo4 img{
+            position: absolute;
+            width: 25vw;
+            top: 10px;
+            left: 8px;
+            right: 8px;
+            border-radius: 5px;
+            border-color: #f7f4fe;
+            border: 1.5px solid;
+        }
+        .retangulo1 p, .retangulo3 p, .retangulo5 p, .retangulo2 p, .retangulo4 p{
+            position: absolute;
+            text-align: center;
+            top: 30vw;
+            font-size: 3vw;
+        }
+        .retangulo1{
+            top: 100px;
+            background-color: #514965;
+            left: 8%;
+        }
+        .retangulo2{
+            top: 350px;
+            background-color: #645884;
+            left: 8%;
+        }
+        .retangulo3{
+            top: 220px;
+            background-color: #3f2385;
+            left: 36.5%;
+        }
+        .retangulo4{
+            top: 100px;
+            background-color: #301e5c;
+            right: 8%;
+        }
+        .retangulo5{
+            top: 350px;
+            background-color: #463570;
+            right: 8%;
+        }
+        .retangulo1:hover,.retangulo2:hover, .retangulo3:hover, .retangulo4:hover, .retangulo5:hover{
+            background-color: #7660ae;
+            border-radius: 30px;
+        }
+        .retangulo1:hover img,.retangulo2:hover img, .retangulo3:hover img, .retangulo4:hover img, .retangulo5:hover img{
+            border-radius: 30px;
+        }
+        .triangulo1{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 100vw solid transparent;
+            border-bottom: 570px solid #1e1533;
+        }
+        .triangulo2{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 100vw solid transparent;
+            border-bottom: 420px solid #18112b;
+        }
+        .triangulo3{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 100vw solid transparent;
+            border-bottom: 270px solid #1e1533;
+        }
+        .triangulo4{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 100vw solid transparent;
+            border-bottom: 120px solid #18112b;
+        }
+        @keyframes animacao1{
+            0%{
+                transform: translate(0,0px);
+            }
+            50%{
+                transform: translate(0,-30px);
+            }
+            100%{
+                transform: translate(0,0px);
+            }
+            
+        }
+@media (min-width: 500px){
+        .retangulo1, .retangulo2, .retangulo3 ,.retangulo4, .retangulo5{
+            top: 200px;
+            width: 200px;
+            height: 300px;
+        }
+        .retangulo1{
+            animation: animacao1 5s ease-in-out infinite; 
+        }
+        .retangulo2{
+            animation: animacao1 5.2s ease-in-out infinite; 
+        }
+        .retangulo3{
+            animation: animacao1 5.6s ease-in-out infinite; 
+        }
+        .retangulo4{
+            animation: animacao1 5.8s ease-in-out infinite; 
+        }
+        .retangulo5{
+            animation: animacao1 6s ease-in-out infinite; 
+        }
+        .retangulo1 img, .retangulo3 img, .retangulo5 img,.retangulo2 img, .retangulo4 img{
+            top: 170px;
+            width: 150px;
+            top: 30px;
+            left: 25px;
+        }
+        .retangulo1 p, .retangulo3 p, .retangulo5 p,.retangulo2 p, .retangulo4 p{
+            top: 200px;
+            font-size: 1.5vw;
+        }
+        .retangulo1{
+            background-color: #514965;
+            left: 8%;
+        }
+        .retangulo2{
+            background-color: #645884;
+            left: 25%;
+        }
+        .retangulo3{
+            background-color: #3f2385;
+            left: 42%;
+        }
+        .retangulo4{
+            background-color: #301e5c;
+            right: 25.5%;
+        }
+        .retangulo5{
+            background-color: #463570;
+            right: 8.5%;
+        }
+        .retangulo1:hover,.retangulo2:hover, .retangulo3:hover, .retangulo4:hover, .retangulo5:hover{
+            background-color: #7660ae;
+            border-radius: 30px;
+        }
+        .triangulo1{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 1270px solid transparent;
+            border-bottom: 570px solid #1e1533;
+        }
+        .triangulo2{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 1220px solid transparent;
+            border-bottom: 420px solid #18112b;
+        }
+        .triangulo3{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 1170px solid transparent;
+            border-bottom: 270px solid #1e1533;
+        }
+        .triangulo4{
+            position: absolute;
+            width: 0; 
+            height: 0; 
+            bottom: 10px;
+            border-left: 25% solid transparent;
+            border-right: 1020px solid transparent;
+            border-bottom: 120px solid #18112b;
+        }
+        .triangulo5{
+            position: absolute;
+            width: 0; 
+            height: 0;
+            right: 0px;
+            border-left: 1000px solid transparent;
+            border-right: 25% solid transparent;
+            border-top: 540px solid #1e1533;
+            animation: animacao2 5s ease-in-out infinite;
+        }
+        .triangulo6{
+            position: absolute;
+            width: 0; 
+            height: 0;
+            right: 0px;
+            border-left: 750px solid transparent;
+            border-right: 25% solid transparent;
+            border-top: 520px solid #18112b;
+            animation: animacao2 5s ease-in-out infinite;
+        }
+        .triangulo7{
+            position: absolute;
+            width: 0; 
+            height: 0;
+            right: 0px;
+            border-left: 500px solid transparent;
+            border-right: 25% solid transparent;
+            border-top: 500px solid #1e1533;
+            animation: animacao2 5s ease-in-out infinite;
+        }
+        .triangulo8{
+            position: absolute;
+            width: 0; 
+            height: 0;
+            right: 0px;
+            border-left: 250px solid transparent;
+            border-right: 25% solid transparent;
+            border-top: 480px solid #18112b;
+            animation: animacao2 5s ease-in-out infinite;
+        }
+    }

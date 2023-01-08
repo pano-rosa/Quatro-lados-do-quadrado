@@ -1,0 +1,147 @@
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto_inicio{
+    position: absolute;
+    padding-top: 50px;
+    text-indent: 0%;
+    text-align: left;
+    left: 10%;
+    right: 10%;
+    text-align: justify;
+}
+.texto_inicio h2{
+    font-size: 6vw;
+}
+.texto_inicio p{
+    
+    font-size: 4vw;
+    text-indent: 5%;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #110826;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.imagem img{
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+    height: 45vw;
+    animation: animacao1 5s ease-in-out infinite;
+}
+.circle1{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4f3d7e;
+    clip-path: circle(70vw at bottom right);
+    animation: animacao1 3s ease-in-out infinite;
+
+}
+.circle3{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #4f3d7e;
+    clip-path: circle(60vw at bottom left);
+
+    max-width: 640px;
+    transform: translate(0px);
+    animation: animacao3 7s ease-in-out infinite;
+}
+
+@keyframes animacao1{
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform: translate(0,0px);
+    }
+}
+@keyframes animacao2{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(-30px);
+    }
+    50%{
+        transform: translate(20px);
+    }
+    75%{
+        transform: translate(-20px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+    
+}
+@keyframes animacao3{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(-20px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+    
+}
+@media (min-width: 500px){
+.texto_inicio{
+    padding-top: 90px;
+    text-align: left;
+    left: 75px;
+    right: 50%;
+}
+.texto_inicio h2{ 
+    font-size: 5vw;
+    line-height: 4.5vw;
+}
+.texto_inicio p{ 
+    font-size: 2vw;
+    line-height: 2vw;
+    text-indent: 5%;
+    text-align: justify;
+}
+.imagem img{
+    bottom: 15px;
+    right: 70px;
+    height: 25vw;
+}
+.circle1{
+    clip-path: circle(40vw at bottom right);
+}
+.circle2{
+    position: absolute;
+    top: 0;
+    right: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: #4f3d7e;
+    clip-path: circle(20vw at bottom center);
+}
+.circle3{
+    clip-path: circle(35vw at bottom left);
+}
+    
+}

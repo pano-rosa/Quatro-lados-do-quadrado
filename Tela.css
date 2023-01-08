@@ -1,0 +1,74 @@
+/*Configuração da barra de rolagem*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: #4f3d7e;
+}
+  
+/*Posição Vlibras*/
+.enabled{
+    margin-right: 1vw;
+    position: absolute;
+}
+
+/*Menu interno*/
+button{
+    position: absolute;
+    width: 90px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.2vw;
+    background: #18112b;
+    border: solid #f7f4fe;
+    color: #f7f4fe;
+    transition: all 2s;
+    border-radius: 3px;
+}
+button:hover{
+    background: #f7f4fe;
+    color: #1e1533;
+    border-radius: 16px;}
+
+.button_1{
+    position: absolute;
+    margin-left: 40%;
+    bottom: 100px
+}
+.button_2{
+    position: absolute;
+    margin-left: 40%;
+    bottom: 70px
+}
+.button_3{
+        position: absolute;
+        margin-left: 40%;
+        bottom: 40px
+}
+@media (min-width: 961px){
+
+    button{
+        position: absolute;
+        width: 115px;
+        border-radius: 5px;
+    }
+    .button_1{
+        margin-left: 36%;
+        bottom: 50px
+    }
+    .button_2{
+        margin-left: 46%;
+        bottom: 50px
+    }
+    .button_3{
+        margin-left: 56%;
+        bottom: 50px
+    }
+}
+@media (max-width: 500px){
+    button{
+        font-size: 2.5vw;
+    }
+}

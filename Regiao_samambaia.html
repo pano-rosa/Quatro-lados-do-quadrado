@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quatro Lados do Quadrado</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="carrocel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="Tela.css" />
+    <link rel="stylesheet" href="Texto.css" />
+
+    <link rel="stylesheet" href="ingles.css">
+    
+    <!--Ícone da página-->
+    <link rel="shortcut icon" href="Imagens/Bordas_arrendodadas.ico">
+    
+  </head>
+
+  <body>
+    <!--Título da tela de início-->
+    <div class="legenda_inicio">
+      <a>Samambaia</a>
+    </div>
+    <!--Menu-->
+    <header>
+        <nav>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+          <li><a href="Somos_introdução.html">Somos</a></li>
+        </ul>
+        <!--Tradução-->
+        <div class="langs">
+          <a href="#">PT-BR</a>
+          <a href="i_Regiao_samambaia.html">ENG</a>
+          </div>
+        </nav>
+    </header>
+    <main class="imagem_samambaia"></main>
+    <script src="Java.js"></script>
+    
+    <!--Botão que rola pra cima-->
+    <a id="rolar_cima" href="#">&#9650</a>
+
+    <!--Extenção do Vlibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+      <!--Texto da página início-->
+        <div class="container">
+            <h2>-Sobre a região-</h2>
+              <br>
+                <p>Samambaia foi criada no dia 25 de outubro de 1989, para assentar famílias oriundas de invasões e fundos de quintal, vindas de 
+                    diversas partes do país para o Distrito Federal. Com a oficialização, através da lei n°49 e Decreto 11.291, se tornou a 12ª 
+                    Região Administrativa do Distrito Federal – RA XII/DF, e passou a ser urbanizada.</p>
+                <p>Três anos após as primeiras ocupações, foram construídas 3.381 casas destinadas a famílias de baixa renda, principalmente de 
+                    funcionários públicos. A casa própria foi adquirida com o apoio do Sistema Habitacional de Interesse Social – SHIS mediante 
+                    financiamento do Banco Nacional.</p>
+                <p>A partir de 1989 a cidade passou a receber um grande número de famílias em busca do seu 'lugar ao sol'. Hoje Samambaia figura 
+                    entre as cidades que mais crescem no Distrito Federal e no Brasil, de olho no desenvolvimento sustentável e na qualidade de vida.</p>
+                <p>O local escolhido para a implantação da cidade pertencia ao Núcleo Rural Taguatinga, formado por um conjunto de chácaras 
+                    produtoras de hortaliças, frutas, verduras e flores desde 1958. Parte desse espaço continuou a ser desapropriado, posteriormen­te,
+                     para permitir a expansão de Samambaia, preservando, contudo, a chácara Três Meninas, que se tornou uma referência cultu­ral e 
+                     educativa importante da RA ao se transformar no Parque Ecológico e Vivencial Três Meninas.</p>
+                <br>
+                <div class="img_direita">
+                  <div class="carroussel">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="Imagens/samambaia-1.jpg" alt="">
+                        <p>(Samambaia DF -1989)</p>
+                      </div>
+                
+                      <div class="item">
+                        <img src="Imagens/samambaia-2.jpg" alt="" >
+                      </div>
+
+                  <div class="item">
+                    <img src="Imagens/samambaia-3.jpg" alt="">
+                  </div>
+                </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+                <ul>
+                    <li>Mais de 254 mil habitantes.</li>
+                    <li>Renda média de 4 mil reais.</li>
+                    <li>Crescimento populacional de 5,56% ao ano.</li>
+                    <li>63% da população possui trabalho remunerado ou aposentadoria.</li>
+                    <li>68% da população tem moradia própria.</li>
+                    <li>64% da população está na faixa etária de 19 a 64 anos.</li>
+                    <li>68% da população mora a mais de 10 anos na região.</li>
+                </ul><br>
+                <p>Atualmente, a área urbana de Samambaia subdivide-se em quadras residenciais (QR), comerciais (QN e QS), industriais (QI) das 
+                    quadras 416 e 616 e, ainda, o Setor de Mansões Sudeste (SMSE) e Leste (SML). A área total da RA é de 102,64 km2, com uma área 
+                    rural de 76,90 km2, onde existem diversos condomínios e chá­caras que desenvolvem atividades agropecuárias. Samambaia, assim, 
+                    reúne 8,01% da população total do DF e está localizada a 35 km do centro do Brasília.</p><br>
+                <h3><b>Curiosidade:</b></h3>
+                <p>A cidade passou a se chamar Samambaia por correspondência ao nome do córrego que corta a região, cuja nascente se encontra logo 
+                    abaixo das quadras residenciais 127 e 327 e onde eram encontradas as plantas da espécie samambaia em abundância.</p>
+                <br>
+                <h2>-Mapa da região-</h2>
+                <div id="mapas">
+                  <img src="Imagens/Mapa-Samambaia.png"style="width: 50vw">
+                  <img src="Imagens/mapa_samambaiapng.png"style="width: 30vw">
+                  </div>
+                  <br>
+                <br><br>
+                <h2>-Pontos turísticos e suas histórias-</h2><br><br>
+                <h3><b>-Samambaia Shopping:</b></h3>
+                <p>Um Projeto de Lei (PL), n° 1980/2021, foi enviado para a Câmara Legislativa, pelo governador do Distrito Federal, Ibaneis Rocha, 
+                    sobre a área destinada ao shopping de Samambaia. De acordo com a Terracap, o projeto é semelhante ao tamanho do Shopping Iguatemi
+                     Brasília, que fica no Lago Norte.</p>
+                <p>De acordo com uma pesquisa realizada sobre as necessidades dos moradores da cidade, entre os pedidos elencados, estava a 
+                    necessidade da construção de um shopping com proporções maiores, que atendessem os anseios da comunidade.</p>
+                    <br>
+                    <div class="img_esquerda">
+                      <div class="carroussel">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="Imagens/samambaia-4.jpeg" alt="">
+                          </div>
+                    
+                          <div class="item">
+                            <img src="Imagens/samambaia-5.jpeg" alt="" >
+                          </div>
+                          
+                          <div class="item">
+                            <img src="Imagens/samambaia-6.jpeg" alt="" >
+                          </div>
+
+                      <div class="item">
+                        <img src="Imagens/samambaia-7.jpeg" alt="">
+                      </div>
+                    </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                <p>Para o administrador da localidade, Gustavo Aires, que tem buscado o apoio dos parlamentares para a aprovação do PL, esse seria 
+                    um dos grandes sonhos da população e do governo realizado. “O foco principal é na geração de empregos. Seriam cerca de 2.000 
+                    vagas abertas, no qual iam girar ainda mais a economia local”. Aires ressalta que Samambaia tem um forte potencial para o 
+                    crescimento, tanto que várias construtoras estão buscando a cidade para elevarem os seus empreendimentos. “A questão imobiliária 
+                    está forte por aqui. Sempre vou em lançamentos de novos prédios. A tendência para a verticalização é a nova realidade de 
+                    Samambaia”, conta empolgado o administrador.</p>
+                <p>O Samambaia Shopping está em funcionamento desde o mês de junho de 2019 e combina características de varejo de shopping e comércio
+                     de rua, com o melhor dos dois mundos. O primeiro shopping da cidade reunir serviços, moda, produtos, alimentação e marcar a vida
+                      da população da região tendo sua localização em um ponto estratégico de divisa com Taguatinga e perto do acesso à Ceilândia, e 
+                      para quem vem do Riacho Fundo e Recanto das Emas. Localizado na QN 122 Conj. 15 Lotes 05, 06 e 07 - Samambaia Sul, Brasília - 
+                      DF, 72304-116.</p><br>
+                <p><b>.Lojas:</b></p>
+                <ul>
+                    <li>AMERICANAS Express</li>
+                    <div class="img_direita">
+                      <div class="carroussel">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="Imagens/samambaia-8.jpg" alt="">
+                            <p>- Térreo  -</p>                           
+                          </div>
+                    
+                          <div class="item">
+                            <img src="Imagens/samambaia-9.jpg" alt="" >
+                            <p>- Pavimento 1 -</p> 
+                          </div>
+
+                      <div class="item">
+                        <img src="Imagens/samambaia-10.jpg" alt="">
+                        <p>- Subsolo -</p>
+                      </div>
+                    </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                    <li>Anas e Niños</li>
+                    <li>Bia Vest</li>
+                    <li>Drogaria Vivace</li>
+                    <li>Estilosaas</li>
+                    <li>G'Eletronicos</li>
+                    <li>Jardim Delicado</li>
+                    <li>La Belle Hair Lounge</li>
+                    <li>Ótica Vanessa Souza</li>
+                    <li>Santa Estima</li>
+                    <li>Renova Clínica Médica e Psicológica</li>
+                    <li>Vitrine Pet</li>
+                </ul><br>
+                <h3><b>-Paróquia Santa Luzia:</b></h3>
+                <p>A Paróquia Santa Luzia ou mais conhecida como “Igreja da Barca” está localizada na Quadra 304 de Samambaia Sul, DF. Foi construída
+                     no ano de 1996 próxima ao lançamento do filme Titanic, por esse motivo muitos cidadãos ao olharem sua forma diferente, logo 
+                     fazem referência a ele. Segundo o padre italiano Alberto Trombini, idealizador do projeto, a igreja é uma metáfora da Arca de 
+                     Noé, construída para resgatar a alma das pessoas. Além do templo religioso, a creche Santa Luzia também foi construída no local 
+                     e atende crianças em situação de vulnerabilidade.</p>
+                     <div class="img_direita">
+                      <div class="carroussel">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                          <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="Imagens/samambaia-11.png" alt="">
+                          </div>
+                    
+                          <div class="item">
+                            <img src="Imagens/samambaia-12.png" alt="" >
+                          </div>
+    
+                          <div class="item">
+                            <img src="Imagens/samambaia-13.jpg" alt="">
+                          </div>
+    
+                          <div class="item">
+                            <img src="Imagens/samambaia-14.png" alt="" >
+                          </div>
+    
+                          <div class="item">
+                            <img src="Imagens/samambaia-15.png" alt="">
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                <p><b>.Hora de Brilhar</b></p>
+                <p>No dia 31 de agosto, a Administração Regional abriu uma votação para escolher o ícone que representa a região e seus moradores. 
+                    Por meio de um formulário na internet e pelas redes sociais, foi possível escolher entre sete monumentos que simbolizam Samambaia
+                    . Teve vitória com quase 40% dos votos.</p>
+                <p>Dentre 4.103 votos, a paróquia foi escolhida por 1.396 pessoas. Ela superou o Centro Olímpico e o Estádio de Futebol Rorizão. 
+                    Além do Chafariz, o Complexo Cultural, o Parque Três Meninas e o disputado Restaurante Comunitário.</p>
+                <p><b>.Sobre a igreja</b></p><br>
+                <div class="img_esquerda">
+                  <div class="carroussel">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="Imagens/samambaia-16.png" alt="">
+                      </div>
+                
+                      <div class="item">
+                        <img src="Imagens/samambaia-17.jpg" alt="" >
+                      </div>
+
+                      <div class="item">
+                        <img src="Imagens/samambaia-18.jpg" alt="">
+                      </div>
+
+                      <div class="item">
+                        <img src="Imagens/samambaia-19.jpg" alt="">
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+                <p>Construída no formato de um navio, com janelas no casco que remetem à uma embarcação, em seu interior segue a mesma linha 
+                    arquitetônica nas janelas, na sacristia, na casa do padre, e seu altar é uma réplica da igreja esculpida em mármore. A torre da 
+                    igreja tem uma visão privilegiada de Samambaia e das cidades vizinhas. Possui 53 metros de comprimento e 24 metros de largura e 
+                    missas todos os dias da semana. Tem capacidade para 960 pessoas sentadas.</p>
+              <br><br>
+              <h2>-Depoimentos de moradores-</h2><br><br>
+              <h3><b>-Moradora mais antiga :</b></h3>
+              <p>“Moro em Samambaia Sul há 30 anos. Cheguei aqui em dezembro de 1991, vim para cursar o oitavo ano do ensino fundamental. A cidade 
+                antes não tinha saneamento básico, nem infraestrutura e grande parte dela estava sem asfalto e a educação era precária. Samambaia era
+                 uma cidade dormitório, atualmente ela é uma das cidades mais desenvolvidas, estruturada, com bastante comércio, bancos, hospitais, 
+                 universidades e escolas totalmente diferente de 30 anos atrás".</p>
+              <p>"Decidir ficar devido a estabilidade financeira que encontrei (moradia, emprego e família), já trabalhei no comércio, muitas vezes 
+                pensei em mudar de cidade devido a segurança e tranquilidade, pois como ela cresceu bastante ficou mais movimentada e de certa forma 
+                mais perigosa".
+              </p><br><br>
+              <h3><b>-Morador mais recente :</b></h3>
+              <p>"Cresci nesta cidade e sou apaixonada por ela devido a muitos momentos marcantes, a maioria vivenciados na infância. Essa por sua vez
+                 foi muito divertida já que grande parte das crianças da minha rua brincavam todas juntas de queimada e vôlei. Gosto muito da 
+                 arquitetura da cidade, das praças e parques".</p>
+              <p>"Moro em uma quadra não muito segura, porém há muitas pessoas amorosas e de bom caráter, mesmo com problemas de segurança não 
+                pretendo me mudar de Samambaia, já que a cidade teve uma evolução necessária e nela contém tudo o que preciso. Na minha opinião, a 
+                melhor parte dela é a culinária, pois têm muitos lanches deliciosos por um preço bem acessível e com muitas diversidades".
+              </p>
+              <p></p>
+              <p></p><br><br>
+              <h3><b>Referências:</b><br></div>
+              <div class="referencia">
+              <p>
+                FAMILY SEARCH. Samambaia, Distrito Federal Genealogia. Family Search. Disponível em: https://www.familysearch.org/pt/wiki/Samambaia,_Distr ito_Federal_Genealogia#:~:text=Samambaia%20foi% 20uma%20das %20primeiras,220.806%20habitantes%20(PDAD%202013. Acesso em: 3 mai. 2022. <br>
+                SECUNHO, Rafael; LU, Renata. Paróquia Santa Luzia é eleita cartão-postal de Samambaia. Agência Brasília. Disponível em: https://www.agenciabrasilia.df.gov.br/2020/09/15/paroquia-santa-luzia-e-eleita-cartao-postal-de-samambaia/. Acesso em: 3 mai. 2022. <br>
+                JUSBRASIL. Samambaia Shopping. Jusbrasil. Disponível em: https://www.jusbrasil.com.br/jurisprudencia/busca?q=Samambaia+Shopping. Acesso em: 3 mai. 2022. <br>
+                Ana Luiza. Samambaia deve ganhar cartão-postal. Política distrital. 2020. Disponível em: https://www.politicadistrital.com.br/2020/09/03/samambaia-deve-ganhar-cartao-postal/ . Acesso em: 26 mai. 2022. <br>
+                https://samambaiashopping.com/o-samamb acesso em 03/05/2022<br>
+                ra/conhecaara/#:~:text=A%20cidade%20pa ssou%20a%20se,da%20esp%C3%A9ci e%20samambaia%20em%20ab und%C3%A2ncia  acesso em 03/05/202<br>
+                https://br.pinterest.com/pin/622974560931864688/  acesso em 26/05/2022<br>
+                http://www.samambaiaempauta.com.br/2016/05/amor.html acesso em 26/05/2022<br>
+                https://www.youtube.com/watch?v=EwTUPwmiB6s acesso em 29/05/2022<br>
+              </p>
+              </div>
+              <br><br><br>
+              <div style="padding-top: 0;" class="container">
+                <h2>Veja um pouco das outras regiões</h2></div><br><br>
+                  <div id="letsgo" class="letsgo">
+                    <a href="Regiao_guara.html">
+                    <img style="width: 20vw" src="Imagens/Guara.jpeg"><p>Guará</p></a>
+                    <a href="Regiao_santa_maria.html">
+                    <img style="width: 20vw" src="Imagens/Santa_maria.jpg"><p>Santa Maria</p></a>
+                    <a href="Regiao_varjao.html">
+                    <img style="width: 20vw" src="Imagens/Varjao.jpg"><p>Varjão</p></a>
+                </div><br><br><br><br>
+        <!--Botão que rola pra cima-->
+        <a id="rolar_cima" href="#">&#9650</a>
+  </body>
+</html>

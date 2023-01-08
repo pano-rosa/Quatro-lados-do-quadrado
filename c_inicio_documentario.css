@@ -1,0 +1,203 @@
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto_inicio{
+    position: absolute;
+    padding-top: 50px;
+    text-indent: 0%;
+    text-align: left;
+    left: 75px;
+    right: 75px;
+    text-align: justify;
+}
+.texto_inicio h2{
+    font-size: 6vw;
+}
+.texto_inicio p{
+    font-size: 3vw;
+    text-indent: 5%;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #1e1533;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+iframe{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    right: 15%;
+    bottom: 130px;
+    border-radius: 10px;
+}
+.video img{
+    width: 0;
+}
+.triangulo1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 100vw solid transparent;
+    border-bottom: 560px solid #4f3d7e;
+    animation: animacao1 5s ease-in-out infinite;
+}
+.triangulo2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 100vw solid transparent;
+    border-bottom: 560px solid #1e1533;
+    animation: animacao1 4s ease-in-out infinite;
+}
+.triangulo3 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 100vw solid transparent;
+    border-bottom: 410px solid #18112b;
+    animation: animacao1 2s ease-in-out infinite;
+}
+.triangulo4 {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 100vw solid transparent;
+    border-bottom: 410px solid #4f3d7e;
+    animation: animacao1 3s ease-in-out infinite;
+}
+.triangulo5 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 100vw solid transparent;
+    border-bottom: 260px solid #1e1533;
+    animation: animacao1 4s ease-in-out infinite;
+}
+.triangulo6 {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 100vw solid transparent;
+    border-bottom: 260px solid #18112b;
+    animation: animacao1 2s ease-in-out infinite;
+}
+@keyframes animacao1{
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform: translate(0,0px);
+    }
+}
+
+@media (min-width: 500px){
+    .texto_inicio{
+        left: 75px;
+        right: 50%;
+    }
+    .texto_inicio h2{
+        font-size: 4vw;
+    }
+    .texto_inicio p{
+        font-size: 2vw;
+    }
+    iframe{
+        width: 330px;
+        height: 205px;
+        bottom: 150px;
+        right: 150px;
+    }
+    .video img{
+        position: absolute;
+        width: 480px;
+        height: 400px;
+        bottom: 90px;
+        right: 50px;
+    }
+    
+.triangulo1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 560px solid #4f3d7e;
+    animation: animacao1 5s ease-in-out infinite;
+}
+.triangulo2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 1000px solid transparent;
+    border-bottom: 560px solid #1e1533;
+    animation: animacao1 4s ease-in-out infinite;
+}
+.triangulo3 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 410px solid #18112b;
+    animation: animacao1 2s ease-in-out infinite;
+}
+.triangulo4 {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 1000px solid transparent;
+    border-bottom: 410px solid #4f3d7e;
+    animation: animacao1 3s ease-in-out infinite;
+}
+.triangulo5 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 10px;
+    border-left: 25% solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 260px solid #1e1533;
+    animation: animacao1 4s ease-in-out infinite;
+}
+.triangulo6 {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    right: 0;
+    bottom: 10px;
+    border-right: 25% solid transparent;
+    border-left: 1000px solid transparent;
+    border-bottom: 260px solid #18112b;
+    animation: animacao1 2s ease-in-out infinite;
+}
+}

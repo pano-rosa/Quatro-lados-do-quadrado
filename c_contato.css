@@ -1,0 +1,279 @@
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto_inicio {
+    position: absolute;
+    top: 70px;
+    text-indent: 0%;
+    text-align: center;
+    font-size: 7vw;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #110826;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.contato1, .contato2{
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #463570;
+    box-shadow: 5px 5px 5px black;
+    transition-duration: 1s;
+}
+.contato1{
+    top: 200px;
+    left: 10%;
+}
+.contato2{
+    top: 400px;
+    right: 10%;
+}
+.contato1 p, .contato2 p{
+    font-size: 5vw;
+}
+.contato1:hover p, .contato2:hover p{
+    font-size: 2.5vw;
+}
+.contato1:hover, .contato2:hover{
+    background-color: #7660ae;
+    border-radius: 50%;
+    font-size: 2vw;
+}
+.contato1 p{
+    margin-top: 35px;
+}
+.contato2 p{
+    margin-top: 20px;
+}
+.texto{
+    position: absolute;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 4vw;
+    color: #f7f4fe;
+    margin-top: 10px;
+    transition-duration: 1s;
+    
+}
+.circulo1{
+    position: absolute;
+    bottom: 10px;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(45vw at bottom right);
+    animation: animacao1 2.5s ease-in-out infinite;
+}
+.circulo2{
+    position: absolute;
+    bottom: 10px;
+    left:10%;
+    width: 50%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(35vw at bottom center);
+    animation: animacao1 3.5s ease-in-out infinite;
+}
+.circulo3{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(40vw at bottom left);
+    animation: animacao1 5.5s ease-in-out infinite;
+}
+.circulo4{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #18112b;
+    clip-path: circle(30vw at bottom left);
+    animation: animacao1 5s ease-in-out infinite;
+}
+.circulo5{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #18112b;
+    clip-path: circle(35vw at bottom right);
+    animation: animacao1 3.5s ease-in-out infinite;
+}
+.circulo6{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #18112b;
+    clip-path: circle(20vw at bottom center);
+    animation: animacao1 3s ease-in-out infinite;
+}
+@keyframes animacao1{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,10px);
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(0,5px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+@media (min-width: 500px){
+    .texto_inicio {
+        position: absolute;
+        top: 70px;
+        text-indent: 0%;
+        text-align: center;
+        font-size: 4vw;
+        margin-left: 42%;
+        margin-right: 42%;
+    }
+    .quadrado2{
+        position: absolute;
+        background-color: #110826;
+        height: 10px;
+        width: 100%;
+        bottom: 0;
+    }
+    .contato1, .contato2{
+        position: absolute;
+        width: 450px;
+        height: 300px;
+        top: 30%;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 5.5vw;
+        background-color: #463570;
+        box-shadow: 5px 5px 5px black;
+        transition-duration: 1s;
+    }
+    .contato1{
+        left: 10%;
+    }
+    .contato2{
+        right: 10%;
+    }
+    .contato1:hover, .contato2:hover{
+        background-color: #7660ae;
+        border-radius: 50%;
+        font-size: 2.5vw;
+    }
+    .contato1 p{
+        margin-top: 15%;
+    }
+    .contato2 p{
+        margin-top: 7%;
+    }
+    .texto{
+        position: absolute;
+        margin-top: 0%;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 2.5vw;
+        color: transparent;
+        margin-top: 15px;
+        transition-duration: 1s;
+        
+    }
+    .texto:hover{
+        color: #f7f4fe;
+    }
+    .circulo1{
+        position: absolute;
+        bottom: 10px;
+        right: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #1e1533;
+        clip-path: circle(45vw at bottom right);
+        animation: animacao1 2.5s ease-in-out infinite;
+    }
+    .circulo2{
+        position: absolute;
+        bottom: 10px;
+        left:10%;
+        width: 50%;
+        height: 100%;
+        background-color: #1e1533;
+        clip-path: circle(35vw at bottom center);
+        animation: animacao1 3.5s ease-in-out infinite;
+    }
+    .circulo3{
+        position: absolute;
+        bottom: 10px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #1e1533;
+        clip-path: circle(40vw at bottom left);
+        animation: animacao1 5.5s ease-in-out infinite;
+    }
+    .circulo4{
+        position: absolute;
+        bottom: 10px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #18112b;
+        clip-path: circle(30vw at bottom left);
+        animation: animacao1 5s ease-in-out infinite;
+    }
+    .circulo5{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        height: 100%;
+        background-color: #18112b;
+        clip-path: circle(35vw at bottom right);
+        animation: animacao1 3.5s ease-in-out infinite;
+    }
+    .circulo6{
+        position: absolute;
+        bottom: 10px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #18112b;
+        clip-path: circle(20vw at bottom center);
+        animation: animacao1 3s ease-in-out infinite;
+    }
+    @keyframes animacao1{
+        0%{
+            transform: translate(0,0);
+        }
+        25%{
+            transform: translate(0,10px);
+        }
+        50%{
+            transform: translate(0,0);
+        }
+        75%{
+            transform: translate(0,5px);
+        }
+        100%{
+            transform: translate(0,0);
+        }
+    }
+}

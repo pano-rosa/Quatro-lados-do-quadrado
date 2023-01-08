@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    font-size: 1.5vw;
+    color: #f7f4fe;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: #e0d3ff;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #1e1533;
+    height: 7vh;
+  }
+  
+  .imagem_guara{
+    background: url("Imagens/Guara.jpeg") no-repeat center center;
+    background-size: cover;
+    background-color: fixed;
+    background-attachment: fixed;
+    height: 92vh;
+  }
+  .imagem_samambaia{
+    background: url("Imagens/Samambaia.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: fixed;
+    background-attachment: fixed;
+    height: 92vh;
+  }
+  .imagem_santa{
+    background: url("Imagens/Santa_maria.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: fixed;
+    background-attachment: fixed;
+    height: 92vh;
+  }
+  .imagem_varjao{
+    background: url("Imagens/Varjao.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: fixed;
+    background-attachment: fixed;
+    height: 92vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+@media (max-width: 500px){
+    a{
+        font-size: 3vw;
+    }
+}
+
+
+
+  

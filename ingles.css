@@ -1,0 +1,21 @@
+.langs{
+    position: absolute;
+    right: 1vw;
+    background: transparent;
+    text-align: center;
+}
+.langs a{
+    color: #fff;
+    font-size: 1vw;
+    text-decoration: none;
+    padding: 0.5vw;
+    transition: .3s linear;
+}
+a:hover{
+    color: #4f3d7e;
+}
+@media (max-width: 500px){
+    .langs a{
+        font-size: 1.5vw;
+    }
+}

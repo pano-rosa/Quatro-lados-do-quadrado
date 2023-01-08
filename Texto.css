@@ -1,0 +1,160 @@
+/*Legenda início*/
+.legenda_inicio{
+    color: #f7f4fe;
+    font-family: serif;
+    position: absolute;
+    text-align: center;
+    font-size: 8vw;
+    left: 0%;
+    right: 0%;
+    bottom: 35%;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 92%;
+    top: 7%;
+}
+.legenda_inicio a{
+  position: relative;
+  font-size: 10vw;
+  top: 35%;
+  opacity: 1;
+}
+/*Rola pra cima*/
+#rolar_cima{
+    text-decoration: none;
+    text-align: center;
+    color:#f7f4fe;
+    background-color: #1e1533;
+    border-style: solid;
+    position: fixed;
+    border-color: #f7f4fe;
+    border-radius: 5px;
+    padding: 10px;
+    left: 10px;
+    bottom: 10px;
+  }
+  /*Configuração base*/
+body{
+    background-color: #1e1533;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /*Configuração texto*/
+  .container{
+    color: #f7f4fe;
+    padding-top: 75px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  p, h3, ul{
+    text-align: justify;
+    font-size: 1.9vw;
+    line-height: 3vw;
+  }
+  h2 {
+    text-align: center;
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  h3 {
+    font-size: 2.5vw;
+  }
+  .container p{
+    text-indent: 5%;
+    text-align: justify;
+  }
+  .referencia p{
+    color: #f7f4fe;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2vw;
+    font-size: 1vw;
+  }
+.letsgo p{
+  position: relative;
+  top: 1vw;
+  font-size: 2vw;
+  color: #f7f4fe;
+  text-align: center;
+}
+
+/*Configuração imagem*/
+.img_direita{
+  float: right;
+  margin-left: 2vw;
+  border-radius: 5px;
+}
+.img_esquerda{
+  float: left;
+  margin-right: 2vw;
+  border-radius: 5px;
+}
+#mapas{
+  display: flex;
+  justify-content: center;
+}
+.letsgo img{
+  max-width: 70%;
+  margin-left: 3vw;
+  border-radius: 3vw;
+}
+.letsgo img:hover{
+  filter: brightness(50%) ;
+  transition: 1s;
+  border-radius: 10vw;
+}
+#letsgo{
+  display: flex;
+  justify-content: center;
+}
+/*Carrossel*/
+.carroussel{
+  position: static;
+  width: 30vw;
+  height: 35VW;
+}
+.carroussel img{
+  width: 50VW;
+  height: 50VW;
+}
+.carroussel p{
+  font-size: 1vw;
+  text-align: center;
+  line-height: 2.5vw;
+}
+.carousel-indicators{
+  top: 5%;
+  left: 5%;
+}
+@media (max-width: 500px){
+  .legenda_inicio a{
+    font-size: 15vw;
+  }
+  .container{
+    max-width: 85%;
+  }
+  p, h3, ul{
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  .referencia p{
+    font-size: 2vw;
+  }
+  .letsgo p{
+    font-size: 2.5vw;
+  }
+  .carousel-inner p{
+    font-size: 2vw;
+  }
+}

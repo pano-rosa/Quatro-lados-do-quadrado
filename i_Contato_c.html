@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quatro Lados do Quadrado</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="Tela.css" />
+    <link rel="stylesheet" href="Texto.css" />
+    <link rel="stylesheet" href="Fornulario.css" />
+    <script src="Java.js"></script>
+
+    <link rel="stylesheet" href="ingles.css">
+
+    <!--Ícone da página-->
+    <link rel="shortcut icon" href="Imagens/Bordas_arrendodadas.ico">
+
+    <style>
+        body{
+            font-family: serif;
+            background-color: #18112b;
+            color: #f7f4fe;
+        }
+        .quadrado2{
+            position: absolute;
+            background-color: #110826;
+            height: 10px;
+            width: 100%;
+            top: 240%;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <!--Menu-->
+    <header>
+        <nav>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="i.inicio_inicio.html">Menu</a></li>
+          <li><a href="i_Contato.html">Contact</a></li>
+          <li><a href="i_Somos_introdução.html">About us</a></li>
+        </ul>
+        <!--Tradução-->
+        <div class="langs">
+          <a href="Contato_c.html">PT-BR</a>
+          <a href="#">ENG</a>
+          </div>
+        </nav>
+    </header>
+    
+    <!--Extenção do Vlibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+        <!--Formulário: relato de morador-->
+        <section>
+            <h2>Contact</h2><br>
+            <form action="https://formsubmit.co/quatroladosdoquadrado@gmail.com" method="post">
+                
+                <label>.Name:</label>
+                <input  type="text" name="Nome" placeholder="Type your name" autocomplete="off" required>
+                
+                <label>.Email:</label>
+                <input type="email" name="E-mail" placeholder="Type your email address" autocomplete="off" required>
+                
+                <br>
+                <label>.For what reason are you contacting us? Justify: 
+                </label>
+                <textarea name="Pergunta-1" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                
+                <br>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/i_envio.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button class="botao" type="submit">Send</button><br><br><br>
+                <!--Botão que rola pra cima-->
+                <a id="rolar_cima" href="#">&#9650</a>
+            </form>
+        </section>
+  </body>
+</html>

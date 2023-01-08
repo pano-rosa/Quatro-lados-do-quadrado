@@ -1,0 +1,136 @@
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto_inicio{
+    position: absolute;
+    padding-top: 50px;
+    text-indent: 0%;
+    text-align: left;
+    left: 10%;
+    right: 10%;
+    text-align: justify;
+}
+.texto_inicio h2{
+    font-size: 6vw;
+}
+.texto_inicio p{
+    
+    font-size: 4vw;
+    text-indent: 5%;
+}
+.quadrado1{
+    position: absolute;
+    background-color: #4f3d7e;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(80vw at bottom left);
+}
+.ilustracao img{
+    position: absolute;
+    width: 70vw;
+    bottom: 0;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #18112b;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.triangulo1 {
+    position:fixed;
+    width: 0; 
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #1e1533;
+
+    transform: translate(0px);
+    animation: animacao1 15s ease-in-out infinite;
+
+}
+.triangulo2 {
+    position:fixed;
+    width: 0; 
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #4f3d7e;
+
+    transform: translate(0px);
+    animation: animacao1 20s ease-in-out infinite;
+
+}
+.triangulo3 {
+    position:fixed;
+    width: 0; 
+    height: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #f7f4fe;
+
+    transform: translate(0px);
+    animation: animacao1 30s ease-in-out infinite;
+
+}
+@keyframes animacao1{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, -475%);
+    }
+    100%{
+        transform: translate(0, 0px);
+    }
+}
+@keyframes animacao2{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,-5px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@media (min-width: 500px){
+    .texto_inicio{
+        padding-top: 80px;
+        right: 90px;
+        left: 50%;
+    }
+    .texto_inicio h2{
+        font-size: 5vw;
+    }
+    .texto_inicio p{
+        font-size: 2vw;
+        text-indent: 5%;
+    }
+    .quadrado1{
+        position: absolute;
+        background-color: #4f3d7e;
+        height: 92%;
+        width: 42.5%;
+        left: 0;
+        bottom: 0;
+        border-radius: 50%;
+    }
+    .ilustracao img{
+        width: 500px;
+        margin-left: 5%;
+        margin-top: 30%;
+    }
+}

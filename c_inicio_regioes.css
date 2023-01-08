@@ -1,0 +1,238 @@
+body{
+    font-family: serif;
+    background-color: #18112b;
+    color: #f7f4fe;
+}
+.texto1{
+    padding-top: 40px;
+    font-size: 4vw;
+    text-align: center;
+    animation: animacao2 3s ease-in-out infinite;
+}
+.texto1 h2{
+    text-indent: 0%;
+    text-align: center;
+    font-size: 6vw;
+    line-height: 3.5vw;
+}
+.estrela_1, .estrela_2, .estrela_3, .estrela_4{
+    width: 0;
+}
+.estrela_1:hover, .estrela_2:hover, .estrela_3:hover, .estrela_4:hover{
+    animation-play-state:paused;
+}
+.quadrado2{
+    position: absolute;
+    background-color: #1e1533;
+    height: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.imagem img{
+    position: absolute;
+    width: 104px;
+    top: 10px;
+    left: 5.5px;
+    border-radius: 5px;
+    border-color: #f7f4fe;
+    border: solid;
+}
+.imagem p{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 4vw;
+    animation: animacao2 5s ease-in-out infinite; 
+}
+.imagem .quadro1, .quadro2, .quadro3,.quadro4{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    box-shadow: 5px 5px 5px black;
+    transition-duration: 0.5s;
+}
+.quadro1:hover, .quadro2:hover, 
+.quadro3:hover,.quadro4:hover{
+    background-color: #7660ae;
+    animation: animacao2 15s ease-in-out infinite;
+}
+.quadro1{
+    left: 30px;
+    top: 130px;
+    background-color: #463570;
+    transform: rotate(10deg);
+}
+.quadro2{
+    right: 80px;
+    top: 150px;
+    background-color: #301e5c;
+    transform: rotate(-5deg);
+}
+.quadro3{
+    right: 70px;
+    top: 320px;
+    background-color: #3f2385;
+    transform: skew(5deg);
+    transform: rotate(10deg);
+}
+.quadro4{
+    left: 50px;
+    top: 310px;
+    background-color: #645884;
+    transform: rotate(-20deg);
+}
+.circulo1{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(110vw at bottom right);
+}
+.circulo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1533;
+    clip-path: circle(100vw at bottom left);
+}
+@keyframes animacao2{
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,-5px);
+    }
+    100%{
+        transform: translate(0,0px);
+}
+
+}
+@keyframes roda{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: rotate(0.5turn);
+    }
+    100%{
+        transform: translate(0);
+}
+}
+@media (min-width: 500px){
+        .texto1 h2{
+            text-indent: 0%;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 5vw;
+            line-height: 3.5vw;
+        }
+        .texto1{
+            font-size: 3vw;
+        }
+        .estrela_1 {
+            position: absolute;
+            width: 70px;
+            left: 300px;
+            top: 150px;
+            animation: roda 6s ease-in-out infinite; 
+        }
+        .estrela_2 {
+            position: absolute;
+            width: 60px;
+            left: 900px;
+            top: 300px;
+            animation: roda 5s ease-in-out infinite; 
+        }
+        .estrela_3 {
+            position: absolute;
+            width: 90px;
+            left: 220px;
+            top: 500px;
+            animation: roda 4s ease-in-out infinite; 
+        }
+        .estrela_4 {
+            position: absolute;
+            width: 60px;
+            right: 30px;
+            top: 140px;
+            animation: roda 7s ease-in-out infinite; 
+        }
+        .imagem img{
+            width: 200px;
+            top: 40px;
+            left: 25px;
+        }
+        .imagem p{
+            margin-top: 245px;
+            font-size: 2.5vw;
+        }
+        .imagem .quadro1, .quadro2, .quadro3,.quadro4{
+            position: absolute;
+            width: 250px;
+            height: 300px;
+            box-shadow: 5px 5px 5px black;
+            transition-duration: 0.5s;
+        }
+    .quadro1{
+        position: absolute;
+        left: 30px;
+        top: 140px;
+    }
+    .quadro2{
+        position: absolute;
+        left: 330px;
+        top: 250px;
+    }
+    .quadro3{
+        position: absolute;
+        right: 50px;
+        top: 200px;
+    }
+    .quadro4{
+        left: 650px;
+        top: 250px;
+    }
+        .circulo1{
+            position: absolute;
+            top: 0;
+            right: 0%;
+            width: 100%;
+            height: 100%;
+            clip-path: circle(45vw at bottom right);
+        }
+        .circulo2{
+            position: absolute;
+            top: 0;
+            left:10%;
+            width: 50%;
+            height: 100%;
+            clip-path: circle(40vw at bottom center);
+        }
+        .circulo3{
+            position: absolute;
+            bottom: 0;
+            left:0%;
+            width: 50%;
+            height: 70%;
+            clip-path: circle(15vw at bottom);
+        }
+        .circulo4{
+            position: absolute;
+            bottom: 0;
+            left: 40%;
+            width: 50%;
+            height: 50%;
+            clip-path: circle(20vw at bottom );
+        }
+        .circulo5{
+            position: absolute;
+            top: 0;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            clip-path: circle(30vw at bottom left);
+        }
+}

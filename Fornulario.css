@@ -1,0 +1,97 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 1px;
+    
+}
+section{
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px;
+    background: #4f3d7e;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  section h2{
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 5vw;
+  }
+  section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  form label{
+    color: #f5f5f5;
+    font-size: 2.5vw;
+    margin-bottom: 4px;
+  }
+  form input{
+    padding: 2vw;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+    transition: all 0.5s;
+  }
+  form input:focus{
+    border-radius: 16px;
+  }
+  form textarea{
+    height: 1%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+  }
+  form textarea:focus{
+    border-radius: 16px;
+  }
+  form button{
+    width: 50%;
+    cursor: pointer;
+    font-size: 3vw;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    left: 25%;
+    right: 25%;
+  }
+  .botao{
+    position: relative;
+  }
+  form button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+  }
+  .campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #f5f5f5;
+  }
+@media (max-width: 500px){
+  form button{
+    font-size: 5vw;
+  }
+  form input{
+    padding: 4vw;
+  }
+  form label{
+    font-size: 4vw;
+  }
+  form input{
+    font-size: 3vw;
+  }
+  form textarea{
+    font-size: 3vw;
+  }
+}

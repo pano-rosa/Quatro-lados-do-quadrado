@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quatro Lados do Quadrado</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="carrocel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="Tela.css" />
+    <link rel="stylesheet" href="Texto.css" />
+    
+    <link rel="stylesheet" href="ingles.css">
+
+    <!--Ícone da página-->
+    <link rel="shortcut icon" href="Imagens/Bordas_arrendodadas.ico">
+    
+  </head>
+
+  <body>
+    <!--Título da tela de início-->
+    <div class="legenda_inicio">
+      <a>Santa Maria</a>
+    </div>
+    <!--Menu-->
+    <header>
+        <nav>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+          <li><a href="Somos_introdução.html">Somos</a></li>
+        </ul>
+        <!--Tradução-->
+        <div class="langs">
+          <a href="#">PT-BR</a>
+          <a href="i_Regiao_santa_maria.html">ENG</a>
+          </div>
+        </nav>
+    </header>
+    <main class="imagem_santa"></main>
+    <script src="Java.js"></script>
+    
+    <!--Botão que rola pra cima-->
+    <a id="rolar_cima" href="#">&#9650</a>
+
+    <!--Extenção do Vlibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+      <!--Texto da página início-->
+        <div class="container">
+            <h2>-Sobre a região-</h2>
+              <br>
+                <p>Criada em 1992 Santa Maria é a 13ª Região Administrativa do Distrito Federal, contém em média 125 mil habitantes e é composta por
+                     áreas rurais e urbanas.</p>
+                <p>Seu nome se dá por causa de um rio que se encontrava no mesmo lugar antigamente. A região foi loteada para trabalhadores de baixa
+                     renda que veio construir a capital.</p>
+                <p>Santa Maria passa por um processo de crescimento, isso é perceptível aos moradores que hora ou outra se deparam com um novo 
+                    prédio. Aquela pequena cidade está ficando para trás dando espaço a um novo lugar.</p>
+                <br>
+                <h2>-Mapa da região-</h2>
+                <div id="mapas">
+                  <img src="Imagens/Mapa-Santa Maria.png"style="width: 50vw">
+                  <img src="Imagens/mapa_santa.png"style="width: 30vw">
+                  </div>
+                  <br>
+                <br><br>
+                <h2>-Pontos turísticos e suas histórias-</h2><br><br>
+                <h3><b>-Praça Central  (Santinha):</b></h3>
+                <div class="img_esquerda">
+                  <div class="carroussel">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="Imagens/santa-1.jpg" alt="">
+                      </div>
+                
+                      <div class="item">
+                        <img src="Imagens/santa-2.jpg" alt="" >
+                      </div>
+
+                      <div class="item">
+                        <img src="Imagens/santa-3.jpg" alt="">
+                      </div>
+
+                      <div class="item">
+                        <img src="Imagens/santa-4.jpg" alt="">
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+                <p>A praça central é um dos pontos mais conhecidos da região, com uma estrutura que atende as necessidades da comunidade e um lindo
+                     pôr do sol, conta com uma pista de skate, um palco para apresentações, academia, uma quadra de vôlei e outra de futebol e 
+                     também parquinhos públicos.</p>
+                <p>Outra atração muito importante da região que está presente na praça é a Santinha, monumento bastante conhecido pelos moradores.</p>
+                <p>É uma homenagem a Santa Mãe de Deus, padroeira da região, e o seu dia é celebrado em 1º de janeiro, que é ponto facultativo para 
+                  os moradores de Santa Maria.</p>
+                <h3><b>-Monumento Solarius :</b></h3>
+                <p>O monumento Solarius é um presente do governo francês à nova capital do Brasil, quando a mesma estava sendo construída.</p>
+                <p>Simboliza a ocupação territorial do Distrito Federal e representa o esforço de todos os brasileiros no sentido de se construir a 
+                    grande Capital.</p>
+                    <div class="img_esquerda">
+                      <div class="carroussel">
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="Imagens/santa-5.jpg" alt="">
+                          </div>
+                    
+                          <div class="item">
+                            <img src="Imagens/santa-6.jpg" alt="" >
+                          </div>
+
+                          <div class="item">
+                            <img src="Imagens/santa-9.jpg" alt="">
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                <p>Porém Lúcio Costa, arquiteto de Brasília, achou o monumento estranho e sugeriu que ele fosse colocado em um ponto bem longe. Foi 
+                    assim que o nosso queridinho Chifrudo (apelidado assim pela população) foi parar em Santa Maria.</p>
+                <p>A escultura mede 16 metros e pode ser encontrada perto da BR-040, é um ponto turístico na região por sua forma peculiar, onde 
+                    todos que moram lá já o viram ou ouviram falar, mas nem todos sabem da sua história.</p>
+                <p>Atualmente o monumento sofre um crítico estado de degradação, sua única restauração foi feita em 1987, e pelo visto não terá 
+                    outra tão cedo.</p>
+              <br><br>
+              <h2>-Depoimentos de moradores-</h2><br><br>
+              <h3><b>-Moradora mais antiga :</b></h3>
+              <p>" Eu cheguei aqui no dia 04/02/1992, lembro que não tinha ônibus, a gente pegava um ônibus para Luziânia e parava umas quatro 
+                quadras antes e vinha andando. Eu tinha 17 anos estava grávida da minha primeira filha, minha irmã ganhou um lote aqui e eu vim com 
+                ela e meu cunhado. Logo de cara eu me encantei, pois lembrava o meu interior, tinha poucos vizinhos e todos eles muito acolhedores".</p>
+              <p>"Não tinha energia elétrica, as que tinham eram gambiarras que puxavam dos postes que tinham na Avenida Alagados, não tinha esgoto 
+                muito menos e a água que tinha era de caminhão pipa, e o caminhão só vinha 3 vezes na semana. Mesmo em toda essa precariedade eu me 
+                apaixonei por Santa Maria, pra mim estar ali era um novo recomeço".</p>
+                <div class="img_esquerda">
+                  <div class="carroussel">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="Imagens/santa-7.jpg" alt="">
+                      </div>
+                
+                      <div class="item">
+                        <img src="Imagens/santa-8.jpg" alt="" >
+                      </div>
+
+                      <div class="item">
+                        <img src="Imagens/santa-10.jpg" alt="">
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              <p>"O tempo foi passando, a região foi crescendo, onde era as quadras 120/116 era tudo cerrado, a gente ia lá catar caju, as quadras 
+                300/400/500 era fazenda ainda, não tinha sido loteada. Era tudo muito humilde mas os vizinhos eram unidos, e mesmo em toda essa 
+                precariedade a gente era feliz. A gente foi crescendo junto com Santa Maria, começou aparecer os primeiros mercadinhos, água encanada,
+                 energia, asfalto. Foi difícil, tinha criminalidade mas não era como agora, a gente não via as pessoas usando drogas publicamente".</p>
+              <p>"Lembro que na época de Copa, quem tinha a maior televisão abria o portão para todos da rua poderem assistir o jogo, na época de São 
+                João enfeitavam as ruas, tinha fogueira, assavam batatas e era muito bom. A Santa Maria Sul é mais velha que a Norte, mas hoje em dia 
+                a Norte é mais desenvolvida. Outra coisa que me lembro bem é das festas de comício, na época da política, tinha muitos shows, KLB já
+                 passou por aqui, Calypso, Gino e Geno, eram shows pra gente assistir assim de perto sabe? E eu tô aqui até hoje, no dia em que eu tiver
+                  condições de ter a minha casa própria eu quero em Santa Maria, porquê aqui é minha 'cidade mãe', foi onde eu me encontrei, tive as 
+                  minhas filhas e estou acabando de criar".</p>
+            <p>"De antigamente até hoje aconteceu muita coisa boa, mas também sinto falta daquele tempo. Hoje em dia tem o Shopping, um hospital, a 
+                delegacia, mas também ficou mais perigoso. Antigamente as casas não tinham nem muro e ninguém roubava nada. Santa Maria é uma região
+                 que eu tenho histórias para contar, muitas conquistas. E tá aqui a cidade que eu amo, ainda tem muito o que conquistar, e eu quero 
+                 permanecer aqui". - Gelsa, 47 anos, moradora da região há 30 anos.</p>
+                 <br><br>
+              <h3><b>-Morador mais recente :</b></h3>
+              <p>"Desde de que nasci moro em Santa Maria, o sentimento que tenho com relação a região é bem nacionalista. Sei que existem regiões 
+                melhores, mais desenvolvidas, só que aqui é o meu lar, é onde conheço mais pessoas, onde cursei o fundamental, para onde volto após
+                 um dia cansativo".</p>
+              <p>"Amo andar por aqui, ir na central, no shopping e principalmente ver o pôr do sol, e também as aves, hora ou outra você encontra uma 
+                arara ou um tucano por aí".</p>
+              <p>"É uma região simples, de classe baixa e classe baixa média, a maioria das pessoas se conhecem, os vizinhos são amigáveis e o 
+                comércio (que está em desenvolvimento) tem bastante variedade. A biblioteca Monteiro Lobato é enorme e tem bastante livros".</p>
+              <p>"Aqui é dividido em quadras e também em Norte e Sul, como sou moradora da Norte tenho mais propriedade para falar sobre ela, é 
+                organizada e em sua maioria um local limpo e tranquilo". - Fernanda, 16 anos.</p><br><br>
+              <h3><b>Referências:</b></h3><br></div>
+              <div class="referencia">
+              <p>
+                DF IMOVEIS. Morar em Santa Maria é bom?. DF imoveis. 2019. Disponível em: https://blog.dfimoveis.com.br/2019/05/02/morar-em-santa-maria-e-bom/. Acesso em: 25 mai. 2022. <br>
+                NASCIMENTO, Jéssica . Chifrudo, Saia Velha; conheça os pontos curiosos de Santa Maria, DF. Distrito Federal. 2016. Disponível em: https://g1.globo.com/distrito-federal/noticia/2016/02/chifrudo-saia-velha-conheca-os-pontos-curiosos-de-santa-maria-df.html. Acesso em: 24 mai. 2022. <br>
+                HISTÓRIAS DE BRASÍLIA. O estranho monumento chifrudo. Histórias de Brasília. Disponível em: https://historiasdebrasilia.com/2019/03/02/o-estranho-monumento-chifrudo/. Acesso em: 24 mai. 2022. <br>
+                ACHE TUDO REGIÃO. HISTORIA DE SANTA MARIA. Ache tudo região. Disponível em: https://www.achetudo eregiao.com.br/df/santa_maria/historia.htm. Acesso em: 25 mai. 2022. <br>
+                https://www.facebook.com/marias.memorias/<br>
+                [IMAGEM] http://www.revistaqualimovel.com.br/noticias/santa-maria-tem-o-m2-mais-economico-do-distrito-federal<br>
+                [IMAGEM] http://s2.glbimg.com/54Z8Xvjl0_YBI_Ylmio3sCbwY6E=/ s.glbimg.com/jo/g1/f/original/2015/02/09/00_santa_maria.jpg
+              </p>
+              </div>
+              <br><br><br>
+              <div style="padding-top: 0;" class="container">
+                <h2>Veja um pouco das outras regiões</h2></div><br><br>
+                  <div id="letsgo" class="letsgo">
+                    <a href="Regiao_guara.html">
+                    <img style="width: 20vw" src="Imagens/Guara.jpeg"><p>Guará</p></a>
+                    <a href="Regiao_samambaia.html">
+                    <img style="width: 20vw" src="Imagens/Samambaia.jpg"><p> Samambaia</p></a>
+                    <a href="Regiao_varjao.html">
+                    <img style="width: 20vw" src="Imagens/Varjao.jpg"><p>Varjão</p></a>
+                </div><br><br><br><br>
+        <!--Botão que rola pra cima-->
+        <a id="rolar_cima" href="#">&#9650</a>
+  </body>
+</html>
