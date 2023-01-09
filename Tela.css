@@ -17,7 +17,7 @@
 /*Menu interno*/
 button{
     position: absolute;
-    width: 90px;
+    width: 25vw;
     padding: 5px;
     cursor: pointer;
     font-size: 1.2vw;
